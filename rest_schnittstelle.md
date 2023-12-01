@@ -1,6 +1,6 @@
 
 ## User Story 1
-Als Nutzender möchte ich wissen wer diese Webseite betreibt (Impressum), um den Inhaber erreichen zu können
+Als Nutzender möchte ich wissen, wer diese Webseite betreibt (Impressum), um den Inhaber erreichen zu können
 
 Nur Implementierung im Frontend
 
@@ -258,8 +258,8 @@ Als Nutzer möchte ich Beiträge kategorisiert filtern können, um nach bestimmt
 Als Nutzer möchte ich Posts löschen können, um meine Veröffentlichungen rückgängig zu machen
 
 ### 1. Endpoint
-**URL**: `api/posting/{id}`
-**Methode**: DELETE\
+**URL**: `api/posting/{id}`\
+**Methode**: DELETE
   
 **Response**:
 - **204** No Content
@@ -328,7 +328,7 @@ Als Nutzer möchte ich die Möglichkeit haben, andere Nutzer zu suchen und ihre 
 
 ### 3. Endpoint
 **URL**: `api/follow/{user_id}`
-**Methode**: POST\
+**Methode**: POST
 
 **Response**:
 - **200** OK
@@ -346,7 +346,7 @@ Als Nutzer möchte ich die Möglichkeit haben, andere Nutzer zu suchen und ihre 
 
 ### 4. Endpoint
 **URL**: `api/follow/{id}`\
-**Methode**: DELETE\
+**Methode**: DELETE
   
 **Response**:
 - **204** No Content
@@ -361,7 +361,7 @@ Als Nutzer möchte ich einen Feed haben, um neue Beiträge meiner Freunde sehen 
 
 ### 2. Endpoint
 **URL**: `api/posting/feed/?page={page}&limit={limit}`\
-**Methode**: GET\
+**Methode**: GET
 - **page**: Aktuelle Seite (Pagination)
 - **limit**: Anzahl der Elemente auf einer Seite 
   
